@@ -34,18 +34,6 @@
             <img class="social_img" src="./asset/img/contact/social/svg/discord.svg">
             <a href="https://twitter.com/silvus_tv" class="social_link" target="_BLANK">Visiter</a>
         </div>
-        <div class="social_bloc">
-            <h1 class="social_title" id="twitch">Twitch</h1>
-            <p class="social_desc">Petit créateur de contenus sur twicth, je fais des lives sur plusieurs sujet tel: le jeu video, le code, de la gestion de serveurs et bien d'autres !</p>
-            <img class="social_img" src="./asset/img/contact/social/svg/twitch.svg">
-            <a href="https://twitch.tv/silvus_tv" class="social_link" target="_BLANK">Visiter</a>
-        </div>
-        <div class="social_bloc">
-            <h1 class="social_title" id="youtube">Youtube</h1>
-            <p class="social_desc">Prochainement !</p>
-            <img class="social_img" src="./asset/img/contact/social/svg/youtube.svg">
-            <a href="https://www.youtube.com/channel/UCsKT8MuJX4w6szxV0SRIkzA" class="social_link" target="_BLANK">Visiter</a>
-        </div>
         <div class="mail_clicker">
             <a href="#mail"><img class="mail_arrow" src="./asset/img/contact/mail/arrow_bot.svg">
             <p class="mail_message">Formulaire de mail</p></a>
