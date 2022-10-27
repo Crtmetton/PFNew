@@ -30,7 +30,7 @@
 
         <div class="social_bloc">
             <h1 class="social_title" id="discord">Discord</h1>
-            <p class="social_desc"> C'est également un moyen facile et rapide de rentrer en contact avec moi, encore une fois grace aux messages privés ou appel privés.</p>
+            <p class="social_desc"> C'est également un moyen facile et rapide de rentrer en contact avec moi, encore une fois grace aux messages privés ou appel privés. Emake#3945</p>
             <img class="social_img" src="./asset/img/contact/social/svg/discord.svg">
             <a href="https://discord.gg/⚜Emake⚜#3945" class="social_link" target="_BLANK">Visiter</a>
         </div>
