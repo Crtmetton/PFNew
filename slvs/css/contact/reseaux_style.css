@@ -57,10 +57,11 @@ a{
     background-image: url(../../asset/img/noise2.png);
     transition: 200ms;
 }
-.social_img_second{
+.social_img{
     opacity: 0;
     width: 0;
     position: absolute;
+    background-color: white;
 }
 .social_bloc:hover{
     transition: 200ms;
