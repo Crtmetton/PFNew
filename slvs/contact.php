@@ -32,7 +32,7 @@
             <h1 class="social_title" id="discord">Discord</h1>
             <p class="social_desc"> C'est également un moyen facile et rapide de rentrer en contact avec moi, encore une fois grace aux messages privés ou appel privés.</p>
             <img class="social_img" src="./asset/img/contact/social/svg/discord.svg">
-            <a href="https://twitter.com/silvus_tv" class="social_link" target="_BLANK">Visiter</a>
+            <a href="https://discord.gg/⚜Emake⚜#3945" class="social_link" target="_BLANK">Visiter</a>
         </div>
         <div class="mail_clicker">
             <a href="#mail"><img class="mail_arrow" src="./asset/img/contact/mail/arrow_bot.svg">
