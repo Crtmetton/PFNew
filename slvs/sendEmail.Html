@@ -1,39 +1,19 @@
-// <?php
-//     if (isset($_POST['name']) && isset($_POST['email'])) {
-//         #prepare var
-//         $name = $_POST['name'];
-//         $email = $_POST['email'];
-//         $subject = $_POST['subject'];
-//         $body = $_POST['body'];
-//         $number = $_POST['number'];
-//         $body = wordwrap($body, 70, "\n\r");
 
-//         #prepare mail
-//         $to = "contact.silvus@gmail.com";
-//         $subject = 'Web Site : '.$subject.'';
-//         $headers = [
-//             "From" => ''.$email.'',
-//             "Reply-To" => ''.$email.'',
-//             "Content-Type" => "text/html; charset=utf-8",
-//         ];
-//         $message = ''.$body.' <br> <br> ------------ <br> <br> → Nom : '.$name.' <br> → E-Mail : '.$email.' <br> → Téléphone : '.$number.'';
-        
-//         #send mail / erreur
-//         ini_set("sendmail_from","contact.silvus@gmail.com");
-//         if (mail($to, $subject, $message, $headers )) {
-//             $status = "success";
-//             $response = "Email is sent!";
-//             header("Location: contact#mail");
-//         } else {
-//             $status = "failed";
-//             $response = "Something is wrong: <br><br>";
-//         }
-
-//         #send to js
-//         exit(json_encode(array("status" => $status, "response" => $response)));
-        
-//     }else{
-//         echo'error';
-//     }
-// ?>
-
+<section id="mail" class="mail_bloc">
+    <div class="mail_form_bloc">
+		<h4 class="sent-notification"></h4>
+        <center><h2 class="title_form">Me contacter</h2>
+		<form id="myForm" method="POST" action="sendEmail.php">
+			<input name="name" id="name" type="text" placeholder="Nom">
+			<input name="phone-number" id="phone-number" type="tel" placeholder="Telephone (facultatif)">
+			<br><br>
+			<input name="email" id="email" type="email" placeholder="E-mail">
+			<br><br>
+            <input name="subject" id="subject" type="text" placeholder="Sujet">
+            <br><br>
+			<textarea name="body" id="body" rows="5" placeholder="Votre message"></textarea>
+			<br><br>
+			<button type="submit" value="." onclick="sendEmail()">Envoyer</button>
+		</form></center>
+    </div>
+</section>

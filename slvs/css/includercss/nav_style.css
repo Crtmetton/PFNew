@@ -34,7 +34,9 @@
 .navcv{
     width: 90px;
 }
-a{
+.Pol{
+    z-index: 2;
+    cursor: pointer;
     text-decoration: none;
     margin-left: 4%;
     margin-right: 4%;
