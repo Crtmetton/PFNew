@@ -14,11 +14,11 @@ img{
 .container .card{
     position: relative;
     height: 250px;
-    background: #E7ECEF;
+    background:rgba(255, 255, 255, 0.929)rgba;
     width: 45%;
     margin: 30px 0;
     border-radius: 20px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.348);
 }
 .container .card .imgbox{
     position: absolute;
@@ -130,4 +130,3 @@ ion-icon{
     border-bottom: transparent;
     border-right: transparent; 
 }
-/* https://coolors.co/202735-4790fd-e7ecef-817f75-23967f
