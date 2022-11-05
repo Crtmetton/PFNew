@@ -12,7 +12,10 @@
     top: 0px;
     align-items: center;
     justify-content: center;
-    border-radius: 90%;
+    border-top-right-radius:    90%;
+    border-top-left-radius:     0%;
+    border-bottom-left-radius:  0%;  
+    border-bottom-right-radius: 90%; 
 }
 
 .navtext{
