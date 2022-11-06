@@ -1,11 +1,18 @@
 
-<section id="mail" class="mail_bloc">
+<head>
+	<link rel="stylesheet" href="css/contact/mail_style.css"/>
+    <link rel="stylesheet" href="css/contact/reseaux_style.css"/>
+    <link rel="icon" type="image/png" href="asset/img/logo.png" />
+    <link rel="stylesheet" href="css/body_style.css"/>
+    <link rel="stylesheet" href="./css/includercss/nav_style.css">
+</head>
+<Body>
+	<section id="mail" class="mail_bloc">
     <div class="mail_form_bloc">
 		<h4 class="sent-notification"></h4>
         <center><h2 class="title_form">Me contacter</h2>
 		<form id="myForm" method="POST" action="sendEmail.php">
 			<input name="name" id="name" type="text" placeholder="Nom">
-			<input name="phone-number" id="phone-number" type="tel" placeholder="Telephone (facultatif)">
 			<br><br>
 			<input name="email" id="email" type="email" placeholder="E-mail">
 			<br><br>
@@ -15,5 +22,6 @@
 			<br><br>
 			<button type="submit" value="." onclick="sendEmail()">Envoyer</button>
 		</form></center>
-    </div>
-</section>
+    	</div>
+	</section>
+</Body>	
